@@ -1,3 +1,10 @@
 .temperature{
     font-size: 100px;
 }
+.background{
+    height: 100%;
+    background-color:rgb(53, 121, 246);
+}
+body, html, .current-weather{
+    height: 100%;
+}
