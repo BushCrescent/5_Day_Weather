@@ -1,10 +1,25 @@
-.temperature{
-    font-size: 100px;
+.temperature {
+  font-size: 100px;
 }
-.background{
-    height: 100%;
-    background-color:rgb(53, 121, 246);
+.background {
+  height: 100%;
+  background-color: rgb(53, 121, 246);
 }
-body, html, .current-weather{
-    height: 100%;
+body,
+html {
+  height: 100%;
+  background-color: rgb(53, 121, 246) !important;
 }
+.current-weather {
+  height: 100%;
+}
+.container {
+  background-color: rgb(53, 121, 246);
+}
+.row.mobile {
+  flex-wrap: nowrap;
+  overflow: scroll;
+  max-width: 95%;
+  margin: auto;
+}
+

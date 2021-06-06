@@ -52,7 +52,7 @@ var forecast = function(cityName) {
             <div class = "text-center temperature">${data.list[0].main.temp}°F</div>
             
 
-            <div class = "row">
+            <div class = "row mobile">
 
             <div class = "col">
             <div>${moment(data.list[1].dt_txt).format('HH')}:00</div>
@@ -86,7 +86,7 @@ var forecast = function(cityName) {
 
             </div>
 
-            <div class = "row mt-5">
+            <div class = "row mt-5 mobile">
 
             <div class = "col">
             <div>${moment(data.list[6].dt_txt).format('HH')}:00</div>
